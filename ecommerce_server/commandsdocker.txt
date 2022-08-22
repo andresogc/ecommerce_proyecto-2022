@@ -1,0 +1,10 @@
+
+docker-compose ps
+docker-compose up -d pgadmin
+docker-compose up -d postgres    
+
+*para ver los id de los contenedores:
+docker ps
+
+*Para inspeccionar un contenedor por id y concer la ip de conexion para configurar en al interfaz de pgadmin en la copnexion a la base de datos
+docker inspect 449af7db5f23

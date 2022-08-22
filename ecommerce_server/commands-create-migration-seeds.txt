@@ -1,0 +1,17 @@
+Los comandos se pueden ver y configurar en el package.json
+
+**Migrations
+Crear una migracion: npm run migrations:generate 'nombre de la migracion'
+Correr las migraciones: npm run migrations:run
+Borrar todas las migaciones : npm run migrations:delete
+
+
+**seeds
+Crear un seed: npm run seed:generate -nombre del seed-
+Correr todos los seeders: npm run seed:all
+
+
+
+
+
+
